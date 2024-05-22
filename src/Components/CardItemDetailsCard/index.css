@@ -1,0 +1,84 @@
+.similar-card-con {
+  width: 350px;
+  height: 500px;
+  background-color: #272727;
+  border-radius: 15px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+.company-Logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+.role-con {
+  display: flex;
+  flex-direction: column;
+}
+.role {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.rating-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.star-icon {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-right: 6px;
+}
+.rate-text {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.descrip {
+  width: 80%;
+}
+.descrip h1 {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 24px;
+}
+.descrip p {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 18px;
+}
+.details-con {
+  display: flex;
+  align-items: center;
+}
+.type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 18px;
+}
+.case {
+  margin-right: 6px;
+  color: #f1f5f9;
+  font-size: 27px;
+}
+.type-text {
+  color: #e2ebf3e5;
+  font-family: Roboto;
+  font-size: 15px;
+}
