@@ -1,0 +1,149 @@
+.card-container {
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-style: none;
+  border-radius: 20px;
+  list-style-type: none;
+  margin: 8px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  width: 280px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+.company-Logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+.role-con {
+  display: flex;
+  flex-direction: column;
+}
+.role {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.rating-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.star-icon {
+  color: #fbbf24;
+  font-size: 18px;
+  margin-right: 6px;
+}
+.rate-text {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 14px;
+}
+.con {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+.details-con {
+  display: flex;
+  align-items: center;
+}
+.type {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 18px;
+}
+.case {
+  margin-right: 6px;
+  color: #f1f5f9;
+  font-size: 27px;
+}
+.type-text {
+  color: #e2ebf3e5;
+  font-family: Roboto;
+  font-size: 15px;
+}
+.Ctc {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-weight: medium;
+  font-size: 20px;
+}
+.line {
+  color: #475569;
+  width: 97%;
+}
+
+.description-con {
+  display: flex;
+  flex-direction: column;
+}
+.des-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  margin: 0px;
+}
+.des-text {
+  color: #f1f5f9c6;
+  font-family: Roboto;
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  .card-container {
+    width: 99%;
+    align-items: center;
+    padding: 13px;
+  }
+  .company-Logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+  }
+  .logo-container {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+  }
+  .star-icon {
+    font-size: 12px;
+    margin-right: 3px;
+  }
+  .rate-text {
+    font-size: 10px;
+  }
+  .role {
+    font-size: 10px;
+  }
+  .des-text {
+    font-size: 10px;
+  }
+  .des-heading {
+    font-size: 10px;
+  }
+  .type {
+    margin-right: 10px;
+  }
+  .case {
+    font-size: 10px;
+  }
+  .type-text {
+    font-size: 10px;
+  }
+  .Ctc {
+    font-size: 10px;
+  }
+}
+.link-style {
+  text-decoration: none;
+  border-style: none;
+  margin-bottom: 10px;
+}

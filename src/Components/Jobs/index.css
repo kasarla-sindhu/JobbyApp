@@ -1,0 +1,15 @@
+.jobs-container {
+  background-color: #000000;
+  background-size: cover;
+  max-width: 100vw;
+  min-height: 100%;
+  padding: 30px;
+  display: flex;
+  margin-top: 80px;
+}
+@media (max-width: 768px) {
+  .jobs-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
