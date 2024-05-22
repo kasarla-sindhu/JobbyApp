@@ -5,7 +5,10 @@ import Loader from 'react-loader-spinner'
 import {IoIosStar} from 'react-icons/io'
 import {TiLocation} from 'react-icons/ti'
 import {BsFillBriefcaseFill} from 'react-icons/bs'
+<<<<<<< HEAD
 import Header from '../Header'
+=======
+>>>>>>> 1bfb21babd8bb6ccdbc2c58ee1cca886fa7183a4
 import CardItemDetailsCard from '../CardItemDetailsCard'
 
 const apiStatusConstants = {
@@ -208,12 +211,16 @@ class CardItemDetails extends Component {
   }
 
   render() {
+<<<<<<< HEAD
     return (
       <div className="carditemdetails-con">
         <Header />
         {this.renderResult()}
       </div>
     )
+=======
+    return <div className="carditemdetails-con">{this.renderResult()}</div>
+>>>>>>> 1bfb21babd8bb6ccdbc2c58ee1cca886fa7183a4
   }
 }
 
